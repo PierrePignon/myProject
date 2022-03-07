@@ -1,0 +1,15 @@
+.scanner-wrapper {
+    position: relative; 
+    z-index: 1;
+}
+
+#hero{
+    overflow-y:hidden;
+    overflow-x: hidden;
+    width:'100%';
+} 
+
+#greengourmet-title {
+    text-align: center;
+}
+

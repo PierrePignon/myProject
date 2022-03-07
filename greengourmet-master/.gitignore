@@ -1,0 +1,45 @@
+node_modules
+
+#docker volumes for mongo and redis
+**/mongo-volume/data
+**/redis-volume/data
+
+#java binary
+**/ggauthserver/bin
+**/ggarticleserver/bin
+**/ggscanner/bin
+**/ggmailserver/bin
+
+**/ggauthserver/.settings
+**/ggarticleserver/.settings
+**/ggscanner/.settings
+**/ggmailserver/.settings
+
+**/ggauthserver/.gradle
+**/ggarticleserver/.gradle
+**/ggscanner/.gradle
+**/ggmailserver/.gradle
+
+**/ggauthserver/build
+**/ggarticleserver/build
+**/ggscanner/build
+**/ggmailserver/build
+
+**/ggauthserver/gradle
+**/ggarticleserver/gradle
+**/ggscanner/gradle
+**/ggmailserver/gradle
+
+#mac os
+.DS_Store
+
+#VScode
+**/.VScode
+
+package
+
+envs
+
+.exe
+
+.bat

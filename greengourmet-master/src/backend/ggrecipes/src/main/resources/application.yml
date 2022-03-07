@@ -1,0 +1,25 @@
+server:
+  port: 8084
+
+security:
+  basic:
+    enabled: false
+    
+management:
+  security:
+    enabled: false
+
+spring:
+  data:
+    mongodb:
+      host: mongocluster
+      port: 27017
+      database: admin
+      user: root
+      password: iuzkghkuzegdo
+      authentication-database: admin
+
+    redis:
+      host: rediscluster
+      port: 6379
+      password : uhoaizdhukazdadz
